@@ -1,0 +1,18 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to url templates</h1>
+    <a href="basic_app/other">Not Working</a>
+    <br>
+    <a href="{% url 'basic_app:other' %}">Basic_app Other</a>
+    <br>
+    <a href="{% url 'admin:index' %}">Admin Database Page</a>
+    <br>
+    <a href="{% url 'index' %}">Index Page</a>
+  </body>
+</html>
